@@ -1,0 +1,17 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.10'
+}
+
+group 'de.fls-wiesbaden'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.discord4j:discord4j-core:3.1.1'
+    implementation 'org.apache.commons:commons-configuration2:2.7'
+    implementation 'org.yaml:snakeyaml:1.27'
+}
